@@ -1,0 +1,60 @@
+.bg-contianer {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.userName {
+  color: white;
+  font-weight: bold;
+}
+.card-container {
+  background-color: grey;
+  height: 500px;
+  padding: 30px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    background-color: grey;
+    height: 500px;
+    padding: 30px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.card-login {
+  width: 100%;
+}
+.userName-input {
+  width: 100%;
+  padding: 10px;
+}
+
+.password-input {
+  width: 100%;
+  padding: 10px;
+}
+.login-button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  margin-top: 50px;
+  width: 100px;
+  height: 40px;
+}
+.show-username-password {
+  margin-top: 20px;
+}
